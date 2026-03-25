@@ -1,3 +1,6 @@
+# macOS
+.DS_Store
+
 # Session files (created during usage)
 .first_run_complete
 results/
