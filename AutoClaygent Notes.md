@@ -18,8 +18,8 @@ tags:
 
 **Website:** https://autoclaygent.blueprintgtm.com
 **Repo:** https://github.com/blueprintgtm/AutoClaygent
-**Local clone:** `Technical/Clay/AutoClaygent/`
-**Premium content:** `Technical/Clay/AutoClaygent/premium-content/`
+**Local clone:** `Tools/Enrichment/Clay/AutoClaygent/`
+**Premium content:** `Tools/Enrichment/Clay/AutoClaygent/premium-content/`
 
 ## Contents
 
@@ -311,7 +311,7 @@ When accuracy is critical -- cross-reference multiple sources.
 | **GPT-5** | Complex reasoning | ~$0.01/row | Multi-step logic, ambiguous data |
 | **Claude Sonnet 4.6** | Deep analysis | ~$0.01/row | Long-form content, nuanced research |
 
-**BYOK is the recommended approach** for production workflows. Clay's built-in models (Helium, Neon, Argon) are convenient for getting started but BYOK gives better cost-per-quality at scale. See [[Best Practices/Claygent Guide#Clay Models vs BYOK]].
+**BYOK is the recommended approach** for production workflows. Clay's built-in models (Helium, Neon, Argon) are convenient for getting started but BYOK gives better cost-per-quality at scale. See [[Claygent Guide#Clay Models vs BYOK]].
 
 ---
 
@@ -377,7 +377,7 @@ Clay uses OpenAI Structured Outputs, which imposes strict rules:
 
 ## Setup Requirements
 
-1. **License key** -- purchased from Blueprint GTM (one-time), stored at `~/.claygent-builder/license.key` and backed up in `Technical/Clay/.env`
+1. **License key** -- purchased from Blueprint GTM (one-time), stored at `~/.claygent-builder/license.key` and backed up in `Tools/Enrichment/Clay/.env`
 2. **Claude Code** -- the CLI tool, not Claude Desktop
 3. **Supabase account** -- free tier, no credit card required
 4. **Supabase MCP** -- configured in `~/.claude/mcp.json`:
